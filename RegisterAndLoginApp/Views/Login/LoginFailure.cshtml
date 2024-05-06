@@ -1,0 +1,15 @@
+﻿@model RegisterAndLoginApp.Models.UserModel
+
+<div>
+    <h4>Login</h4>
+    <hr />
+  
+
+    <h2>Login Failed</h2>
+    <p>Invalid username or password.</p>
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
